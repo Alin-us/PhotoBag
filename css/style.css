@@ -1,0 +1,52 @@
+body {
+  background-color: #333333;
+  color: white;
+}
+.navbar {
+  border-bottom: #008ed6 4px solid;
+  opacity: 0.8;
+}
+#Acasa {
+  background: url(../img/home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+#Acasa .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+  background: rgba(0, 0, 0, 0.7);
+}
+#Acasa .Acasa-inner {
+  padding-top: 150px;
+}
+#Acasa .card-form {
+  opacity: 0.9;
+}
+#Acasa .fas {
+  padding: px;
+  color: #008ed6;
+  background-color: white;
+  border-radius: 5px;
+}
+#exploreaza-principal .fas,
+#distribuie-principal .fas {
+  padding: 5px;
+  background-color: #333333;
+  border-radius: 5px;
+  border-color: rgb(0, 0, 0);
+  color: white;
+}
+#creeaza-principal .fas {
+  padding: 5px;
+  color: #008ed6;
+  background-color: #333333;
+  border-radius: 5px;
+}
+#navscroll .fa-shopping-bag {
+  color: rgb(26, 117, 255);
+}
